@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-charcoal: #292C2F;
+    --color-anthracite: #202326;
+    --color-gray-mid: #666B70;
+    --color-gray-light: #E7E8E8;
+    --color-stone-bg: #F8F7F4;
+    --color-stone-surface: #F2EFEB;
+    --color-white: #FFFFFF;
+    --color-border-subtle: #E2E0D8;
+    --color-border-dark: #35393E;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F8F7F4;
+    color: #202326;
+  }
+
+  /* Accessible focus states */
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid #292C2F;
+    outline-offset: 3px;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}

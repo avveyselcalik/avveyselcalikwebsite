@@ -1,0 +1,6 @@
+{
+  "name": "Av. Veysel Çalık — Hukuk ve Danışmanlık",
+  "description": "Av. Veysel Çalık'ın hukuki çalışma alanları ve iletişim bilgileri. Artuklu, Mardin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
